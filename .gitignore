@@ -1,0 +1,9 @@
+sandbox
+*.pyc
+notes
+menus
+data
+.cache
+.pytest_cache
+config/
+__pycache__
