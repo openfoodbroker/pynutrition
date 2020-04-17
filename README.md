@@ -8,7 +8,7 @@ Please post an issue if any of the following steps is not clear enough.
 
 You need the following prerequisites:
 
-* If you are into trying out programming, to get the latest version, you'll need the tool *git* and run ```git clone https://github.com/openfoodbroker/pynutrition.git```. If not, just download a ZIP package from the [releases page](https://github.com/openfoodbroker/pynutrition/releases). 
+* If you are into trying out programming/data science, to get the latest software version, you'll need the tool *git* and run ```git clone https://github.com/openfoodbroker/pynutrition.git```. If not, just download a ZIP package from the [releases page](https://github.com/openfoodbroker/pynutrition/releases). 
 * A PC (personal computer) with any popular operation system
 * Install recent version of the [Python](https://www.python.org/downloads/) programming language.
 * Install a code editor like Atom either Notepad++ or similar.
