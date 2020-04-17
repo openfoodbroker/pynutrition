@@ -23,8 +23,27 @@ This first implementation requires the following steps.
 * Download example recipe [database](https://www.kaggle.com/hugodarwood/epirecipes).
 * Save it under ```data/recipes-20000.json```.
 * Edit your diet preferences in the ```config.yml```.
-* Run ```python3 -m pytest -s tests/week_generator.py```
+* Run ```python3 -m pytest -s tests/test_week_generator.py```
 
+Example output (a fragment):
+```
++-----+---------------------------+-----------+---------+--------+--------+----+
+| Pos | Menu                      |  Energy   | Protein |  Fat   | Search |    |
+| iti |                           |           |         |        |  attem |    |
+| on  |                           |           |         |        |  pts   |    |
++-----+---------------------------+-----------+---------+--------+--------+----+
+| Req | ε ≤ 0.07                  | 1794.794  | 67.305  | 59.826 |        |    |
+| uir |                           |           |         |        |        |    |
+| ed  |                           |           |         |        |        |    |
++-----+---------------------------+-----------+---------+--------+--------+----+
+| Mon | *x2!* Jícama-Melon Salad  |  1760.0   |  70.0   |  62.0  | 10641  |    |
+| day |  ;                        |           |         |        |        |    |
+|     |  Fennel and Orange Salad  |           |         |        |        |    |
+|     |  ;                        |           |         |        |        |    |
+|     |  Pea Salad with Radishes  |           |         |        |        |    |
+|     | and Feta Cheese           |           |         |        |        |    |
++-----+---------------------------+-----------+---------+--------+--------+----+
+```
 
 # Program configuration explained
 
