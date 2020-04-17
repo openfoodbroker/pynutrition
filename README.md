@@ -2,6 +2,20 @@
 
 Menu matcher is a smart generator for personalized nutrition plans.
 
+# Note for non-programmer users
+
+Please post an issue if any of the following steps is not clear enough.
+
+You need the following prerequisites:
+
+* If you are into trying out programming, to get the latest version, you'll need the tool *git* and run ```git clone https://github.com/openfoodbroker/pynutrition.git```. If not, just download a ZIP package from the [releases page](https://github.com/openfoodbroker/pynutrition/releases). 
+* A PC (personal computer) with any popular operation system
+* Install recent version of the [Python](https://www.python.org/downloads/) programming language.
+* Install a code editor like Atom either Notepad++ or similar.
+* If needed, take a couple of minutes to focus on running commands in the system console while having an eye on the execution path.
+* To install program dependencies, run ```pip3 install - requirements.txt``` in the program folder.
+* Now you are all set!
+
 # How to use
 
 This first implementation requires the following steps.
