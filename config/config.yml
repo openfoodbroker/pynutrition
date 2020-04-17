@@ -1,0 +1,47 @@
+---
+
+meta:
+  disclaimer:
+    You use this program and supplied information on your own risk;
+    for proper professional health care and nutrition advice
+    please consult your local specialists. No warranties.
+  license: https://creativecommons.org/licenses/by/4.0/deed.en
+
+person:
+  age: 35
+  sex: male
+  height: 170
+  weight: 80
+  diet: 0.8
+  PAL: 1.5
+
+nutrition:
+  nogolist: ["potato", "banana", "bread", "alcohol", "chocolate", "sauce",
+             "dip", "cocktail", "cake", "pasta", "pizza", "wine"]
+  menu:
+    monday:
+      style: random
+      like: ["lentils", "chicken", "salad"]
+      dislike: ["garlic"]
+    tuesday:
+      style: vegan
+      like: ["carrots", "salad", "soup"]
+    wednesday:
+      style: vegan
+      like: ["soup", "salad"]
+    thursday:
+      style: vegetarian
+      dislike: ["eggs"]
+    friday:
+      style: random
+      like: ["fish", "soup"]
+    saturday:
+      style: vegan
+    sunday:
+      style: vegan
+
+system:
+  matching_tolerance: 0.07
+  max_iterations: 150000
+  data_file: "data/recipes-20000.json"
+  use_recipe_scale_trick: true

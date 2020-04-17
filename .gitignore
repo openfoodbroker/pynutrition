@@ -5,5 +5,5 @@ menus
 data
 .cache
 .pytest_cache
-config/
+config/custom.yml
 __pycache__
