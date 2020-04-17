@@ -22,7 +22,7 @@ This first implementation requires the following steps.
 
 * Download example recipe [database](https://www.kaggle.com/hugodarwood/epirecipes).
 * Save it under ```data/recipes-20000.json```.
-* Edit your diet preferences in the ```config.yml```.
+* Edit your diet preferences in the configuration file ```config/config.yml```.
 * Run ```python3 -m pytest -s tests/test_week_generator.py```
 
 Example output (a fragment):
