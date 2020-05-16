@@ -5,8 +5,7 @@ meta:
     You use this program and supplied information on your own risk;
     for proper professional health care and nutrition advice
     please consult your local specialists. No warranties.
-  license: https://creativecommons.org/licenses/by/4.0/deed.en
-
+  license: https://opensource.org/licenses/MIT
 person:
   age: 35
   sex: male
